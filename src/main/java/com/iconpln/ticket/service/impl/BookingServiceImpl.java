@@ -61,7 +61,7 @@ public class BookingServiceImpl implements BookingService {
 			// Save the booking
 			return bookingRepository.save(booking);
 		} else {
-			throw new TicketsNotAvailableException("Tickets not available for concert " + ticket.getEvent().getName()
+			throw new TicketsNotAvailableException("Tickets not available for event " + ticket.getEvent().getName()
 					+ " with ticket ID: " + bookingRequest.getTicketId());
 		}
 	}

@@ -32,7 +32,6 @@ import com.iconpln.ticket.repository.TicketRepository;
 import com.iconpln.ticket.service.impl.BookingServiceImpl;
 
 @ExtendWith(MockitoExtension.class)
-@SpringBootTest
 class BookingServiceTest {
 
 	@Mock

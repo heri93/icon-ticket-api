@@ -27,14 +27,12 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.springframework.boot.test.context.SpringBootTest;
 
 import com.iconpln.ticket.model.Event;
 import com.iconpln.ticket.model.request.SearchEventRequest;
 import com.iconpln.ticket.service.impl.EventServiceImpl;
 
 @ExtendWith(MockitoExtension.class)
-@SpringBootTest
 class ConcertServiceTest {
 
     @Mock
